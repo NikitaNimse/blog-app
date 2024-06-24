@@ -20,5 +20,6 @@ const router =  createBrowserRouter([
         element:<BlogView/>
     },
 
+
 ])
 root.render(<RouterProvider router={router}/>)
