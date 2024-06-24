@@ -16,16 +16,16 @@ function Home () {
 
         } = blogObject
         return (
-           <Blogcard
-           key={i}
-           id={id}
-           title={title}
-           content={content}
-           author={author}
-           Date={Date}
-           Languages={Languages}
-           />
-        )
+            <Blogcard
+            key={i}
+            id={id}
+            title={title}
+            content={content}
+            author={author}
+            Date={Date}
+            Languages={Languages}
+            />
+         )
         })
     }
     
