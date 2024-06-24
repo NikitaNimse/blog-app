@@ -1,0 +1,60 @@
+.card-container{
+    /*background-color: rgb(244, 228, 138);*/
+    background-color: hsl(75, 13%, 94%);
+    border: 1px solid black;
+    padding:  5px 10px;
+    margin:80px 40px;
+    width:300px;
+    
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: inline-block;
+    text-decoration:none;
+
+  
+}
+.card-container:hover{
+ 
+  transform: scale(1.05);
+}
+.title{
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:20px;
+    color:rgb(255, 65, 36);
+}
+.contentpre{
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    color:rgb(44, 36, 60);
+    font-size: 20px;
+}
+.author-avtar{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+}
+.name{
+  
+    font-size: 22px;
+    font-style:italic;
+    margin-left:10px;
+}
+.author-card{
+    display:flex;
+    align-items:center;
+    margin:10px 5px;
+}
+.date{
+    margin-left:38px;
+}
+.category-badge{
+background-color: black;
+color:#FFFF;
+padding:2px 5px;
+margin:7px;
+font-size:15px;
+border-radius:10px;
+}
